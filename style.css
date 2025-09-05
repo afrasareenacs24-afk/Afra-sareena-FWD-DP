@@ -1,0 +1,253 @@
+/* Reset */
+
+* {
+
+  margin: 0;
+
+  padding: 0;
+
+  box-sizing: border-box;
+
+}
+
+body {
+
+  font-family: Arial, sans-serif;
+
+  line-height: 1.6;
+
+  background: #f4f4f4;
+
+  color: #333;
+
+}
+
+header {
+
+  background: #333;
+
+  color: #fff;
+
+  padding: 15px 0;
+
+  text-align: center;
+
+  position: sticky;
+
+  top: 0;
+
+  z-index: 1000;
+
+}
+
+header h1 {
+
+  margin-bottom: 5px;
+
+}
+
+nav ul {
+
+  list-style: none;
+
+  display: flex;
+
+  justify-content: center;
+
+  gap: 20px;
+
+}
+
+nav a {
+
+  text-decoration: none;
+
+  color: #fff;
+
+  font-weight: bold;
+
+  transition: 0.3s;
+
+}
+
+nav a:hover {
+
+  color: #ff9800;
+
+}
+
+section {
+
+  padding: 50px 20px;
+
+  max-width: 1000px;
+
+  margin: auto;
+
+}
+
+#home {
+
+  text-align: center;
+
+  background: url("https://picsum.photos/1200/500?student") no-repeat center center/cover;
+
+  color: white;
+
+  padding: 100px 20px;
+
+}
+
+#home h2 {
+
+  font-size: 2.5rem;
+
+  margin-bottom: 10px;
+
+}
+
+#about, #skills, #projects, #contact {
+
+  background: #fff;
+
+  margin-top: 20px;
+
+  border-radius: 10px;
+
+  padding: 30px;
+
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+
+}
+
+h2 {
+
+  margin-bottom: 20px;
+
+  color: #333;
+
+}
+
+.skills-list {
+
+  display: flex;
+
+  gap: 15px;
+
+  flex-wrap: wrap;
+
+}
+
+.skill {
+
+  background: #ff9800;
+
+  color: white;
+
+  padding: 10px 20px;
+
+  border-radius: 20px;
+
+  font-weight: bold;
+
+}
+
+.projects {
+
+  display: grid;
+
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+
+  gap: 20px;
+
+}
+
+.project {
+
+  background: #f4f4f4;
+
+  border-radius: 10px;
+
+  overflow: hidden;
+
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+
+  transition: transform 0.3s;
+
+}
+
+.project img {
+
+  width: 100%;
+
+  height: 150px;
+
+  object-fit: cover;
+
+}
+
+.project:hover {
+
+  transform: scale(1.05);
+
+}
+
+form input, form textarea {
+
+  width: 100%;
+
+  padding: 10px;
+
+  margin: 10px 0;
+
+  border: 1px solid #ccc;
+
+  border-radius: 5px;
+
+}
+
+form button {
+
+  padding: 10px 20px;
+
+  background: #333;
+
+  color: #fff;
+
+  border: none;
+
+  border-radius: 5px;
+
+  cursor: pointer;
+
+  transition: 0.3s;
+
+}
+
+form button:hover {
+
+  background: #ff9800;
+
+}
+
+.response {
+
+  color: green;
+
+  margin-top: 10px;
+
+}
+
+footer {
+
+  text-align: center;
+
+  padding: 15px;
+
+  background: #333;
+
+  color: white;
+
+  margin-top: 20px;
+
+}
